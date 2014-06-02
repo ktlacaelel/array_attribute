@@ -17,8 +17,15 @@ Jeweler::Tasks.new do |gem|
   gem.name = "array_attribute"
   gem.homepage = "http://github.com/ktlacaelel/array_attribute"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Array Attribute - Array atrribute accessor helper.}
+  gem.description = %Q{This helper creates two methods to classes.
+
+array_attribute and carray_attribute.
+
+With these you can create methods that encapsulate an array
+property if you have never used or accessed the property it will
+have an empty array as a default value.
+  }
   gem.email = "kazu.dev@gmail.com"
   gem.authors = ["kazuyoshi tlacaelel"]
   # dependencies defined in Gemfile
