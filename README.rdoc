@@ -51,6 +51,17 @@ example.rb
 
     puts Developer.fingers.inspect 
 
+output:
+
+    []
+    [1, 2, 3]
+    [1]
+    []
+    []
+    [1, 2, 3]
+    []
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 == Contributing to array_attribute
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
